@@ -39,3 +39,5 @@ mv millenium-falcon x-wing ../../galaxy-far-far-away/
 cd ../../death-star/
 mkdir tie-fighter-1 tie-fighter-2 tie-fighter-3
 mv darth-vader.txt ./tie-fighter-1/
+cp storm-trooper.txt ./tie-fighter-2
+cp storm-trooper.txt ./tie-fighter-3
