@@ -50,3 +50,5 @@ cd ..
 rm -r death-star
 cd galaxy-far-far-away/
 mv x-wing/ millenium-falcon/ ./yavin-4/
+cd ../../../day-1-300326/
+rm -r star-wars/
