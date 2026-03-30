@@ -19,4 +19,8 @@ cd ../../../death-star
 cp storm-trooper.txt ../galaxy-far-far-away/tatooine/
 cd ../galaxy-far-far-away/tatooine/
 mv luke.txt ben-kenobi.txt ./millenium-falcon/
+cd ../../tatooine/
+mv millenium-falcon/ ../../galaxy-far-far-away/
+
 cd millenium-falcon/
+mv ben-kenobi.txt obi-wan.txt
