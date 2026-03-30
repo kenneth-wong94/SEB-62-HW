@@ -31,3 +31,10 @@ cd ../../galaxy-far-far-away/
 mkdir yavin-4
 mv ../death-star/millenium-falcon/ yavin-4/
 cd yavin-4/
+cd millenium-falcon/
+mv princess-leia.txt ../../yavin-4/
+mv luke.txt ../x-wing/
+cd ..
+mv millenium-falcon x-wing ../../galaxy-far-far-away/
+cd ../../death-star/
+mkdir tie-fighter-1 tie-fighter-2 tie-fighter-3
