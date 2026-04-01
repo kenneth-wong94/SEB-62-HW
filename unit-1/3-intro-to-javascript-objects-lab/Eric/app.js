@@ -269,4 +269,17 @@ for (const starterPokemonName of pokemon) {
   }
 }
 
+/*
+Exercise 10
+1. Similar to Exercise 6, now complete gyms with a difficulty below 6. How will you approach this?
+ (change the value of `complete` in the qualifying objects from false to true).
+
+Solve Exercise 10 here:
+*/
+for (const midGame of game.gyms) {
+  if (midGame.difficulty < 6) {
+    midGame.completed = true;
+  }
+}
+
 console.log(game);
